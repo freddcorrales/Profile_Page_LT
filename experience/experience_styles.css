@@ -1,0 +1,307 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+/* Section Styles */
+
+header {
+  text-align: center;
+  overflow: hidden;
+  padding-top: 80px;
+  color: black;
+}
+header {
+  line-height: 1.5;
+}
+
+.firstCity { 
+  background: url(images/losangeles.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 60px;
+}
+
+.los_angeles {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  color: white;
+  font-size: 40px;
+
+}
+
+.aboutConill {
+  padding-bottom: 40px;
+}
+
+.conillHeading {
+  text-decoration: underline; 
+}
+
+.conill {
+	background:linear-gradient(to bottom, #e4685d 5%, #cc261d 100%);
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:14px;
+	padding: 6px 15px;
+	text-decoration:none;
+}
+.conill:hover {
+	background:linear-gradient(to bottom, #cc261d 5%, #e4685d 100%);
+	background-color:#cc261d;
+}
+.conill:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/* Garage Team Mazda Styling */
+.secondCity { 
+  background: url(images/costamesa.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 60px;
+  
+}
+
+.costaMesa {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  color: white;
+  font-size: 40px;
+
+}
+
+.aboutGTM {
+  padding-bottom: 40px;
+}
+
+.gtmHeading {
+  text-decoration: underline; 
+}
+
+.gtm {
+	background:linear-gradient(to bottom, #e4685d 5%, #cc261d 100%);
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:14px;
+	padding: 6px 15px;
+	text-decoration:none;
+}
+.gtm:hover {
+	background:linear-gradient(to bottom, #cc261d 5%, #e4685d 100%);
+	background-color:#cc261d;
+}
+.gtm:active {
+	position:relative;
+	top:1px;
+}
+
+/* Young and Rubicam Styling */
+
+.thirdCity { 
+  background: url(images/sanfrancisco.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 60px;
+  
+}
+
+.sanFrancisco {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  color: white;
+  font-size: 40px;
+
+}
+
+.aboutYnR {
+  padding-bottom: 40px;
+}
+
+.ynRHeading {
+  text-decoration: underline; 
+}
+
+.yr {
+	background:linear-gradient(to bottom, #e4685d 5%, #cc261d 100%);
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:14px;
+	padding: 6px 15px;
+	text-decoration:none;
+}
+.yr:hover {
+	background:linear-gradient(to bottom, #cc261d 5%, #e4685d 100%);
+	background-color:#cc261d;
+}
+.yr:active {
+	position:relative;
+	top:1px;
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+
+
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0px 40px 20px;
+  background-color: #999;
+ 
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+a.twitter {
+  background-image: url(images/twitter.svg);
+}
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  
+  /* .flex { */
+      /* display: -ms-flexbox; */     /* TWEENER - IE 10 */
+      /* display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;   */
+  /* }   */
+
+  header {
+    min-height: 250px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
+
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    /* max-width: 1200px; */
+    margin: 0px;
+  }
+
+}
+
